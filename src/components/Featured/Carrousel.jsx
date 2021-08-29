@@ -13,10 +13,9 @@ const Carrousel = () => {
     arrows: false,
     infinite: true,
     autoplay: true,
-    speed: 1000,
-    swipe: true,
-    touchMove: true,
-    slidesToShow: 1
+    speed: 500,
+    autoplaySpeed: 2000,
+    swipe: true
   };
 
   return (
@@ -31,13 +30,15 @@ const Carrousel = () => {
         <div>
           <div className='carrousel_image' style={ {
             background: `url(${ slide_2 })`,
-            height: `${ window.innerHeight }px`
+            height: `${ window.innerHeight }px`,
+            backgroundPosition: 'bottom'
           } } />
         </div>
         <div>
           <div className='carrousel_image' style={ {
             background: `url(${ slide_3 })`,
-            height: `${ window.innerHeight }px`
+            height: `${ window.innerHeight }px`,
+            backgroundPosition: 'bottom'
           } } />
         </div>
       </Slider>
