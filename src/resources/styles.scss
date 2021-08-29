@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+.App {
+  height: 1500px;
+  background: cornflowerblue;
+}
+
+.font_righteous {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5rem;
+}
+
+.font_roboto {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.toolbar {
+  justify-content: space-between;
+}
+
+.icon-buttons {
+  justify-content: flex-end;
+}
+
+.MuiIconButton-edgeEnd {
+  margin-right: -1150px !important;
+}
+
