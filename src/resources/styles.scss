@@ -42,10 +42,16 @@
     height: 121px;
     margin: 6px;
     text-align: center;
-    color: #fff;
+
     font-size: 40px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
+    background-color: rgba(255,255,255, .2);
+  }
+
+  & .band_name {
+    color: white;
+    opacity: 2;
   }
 }
 
@@ -56,4 +62,44 @@
 
 .carrousel_image {
   background-size: cover !important;
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+
+.countdown_wrapper {
+  position:absolute;
+  bottom: 0px;
+  color:#ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+  background: #1cbc9d;
+  font-size: 19px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+  display: flex;
+  background: #10ac84;
+  padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+  font-size: 70px;
+  border-right: 1px solid ghostwhite;
+  margin-right: 14px;
+  padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time{
+  border:none;
+}
+
+.countdown_wrapper .countdown_tag {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 7px;
 }

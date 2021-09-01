@@ -1,5 +1,6 @@
 import React from 'react';
 import Carrousel from './Carrousel';
+import Countdown from './Countdown';
 
 const Featured = () => {
   return (
@@ -8,8 +9,11 @@ const Featured = () => {
     }>
       <Carrousel />
       <div className='artist artist_name'>
-        <div className='wrapper'>Real Estate</div>
+        <div className='wrapper'>
+          <div className='band band_name'>Real Estate</div>
+        </div>
       </div>
+      <Countdown />
     </div>
   );
 };
