@@ -252,17 +252,20 @@
       font-weight: 300;
     }
   }
-
-  .discount_btn {
-    margin-top: 15px !important;
-  }
-
-  .iconImage {
-    width: 25px;
-    margin-right: 5px;
-  }
 }
 
+/*====================
+        BUTTONS
+======================*/
+
+.discount_btn {
+  margin-top: 15px !important;
+}
+
+.iconImage {
+  width: 25px;
+  margin-right: 5px;
+}
 
 /*====================
         PRICING
@@ -283,10 +286,12 @@
 .pricing_wrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
 }
-.pricing_wrapper .pricing_item{
+.pricing_wrapper .pricing_item {
   flex-grow: 1;
-  width: 33%;
+  width: 25%;
   padding: 20px;
   box-sizing: border-box;
 }
