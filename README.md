@@ -1,6 +1,6 @@
 # The Venue
 
-The Venue is a landing page for a music event company. It is made in React.
+The Venue is a landing page for a music event company.
 
 ## Technologie used :
 React and libraries (react-reveal, react-scroll, react-slick, slick-carousel)
