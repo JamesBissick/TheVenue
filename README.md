@@ -7,4 +7,4 @@ React and libraries (react-reveal, react-scroll, react-slick, slick-carousel)
 
 ### Site Deployed using Surge
 
-[Link](https://crwn-clothing-live.surge.sh/)
+[Link](https://the-venue-live.surge.sh/)
