@@ -8,30 +8,30 @@ const SideDrawer = (props) => {
   return (
     <div>
       <Drawer
-        anchor="right"
-        open={props.open}
-        onClose={ () => props.onClose(false)}
+        anchor='right'
+        open={ props.open }
+        onClose={ () => props.onClose(false) }
       >
-        <List component="nav">
-          <ListItem button onClick={() => console.log('Featured')}>
+        <List component='nav'>
+          <ListItem button onClick={ () => console.log('Featured') }>
             Event starts in
           </ListItem>
-          <ListItem button onClick={() => console.log('Venue Infos')}>
+          <ListItem button onClick={ () => console.log('Venue Infos') }>
             Venue Infos
           </ListItem>
-          <ListItem button onClick={() => console.log('Highlights')}>
+          <ListItem button onClick={ () => console.log('Highlights') }>
             Highlights
           </ListItem>
-          <ListItem button onClick={() => console.log('Pricing')}>
+          <ListItem button onClick={ () => console.log('Pricing') }>
             Pricing
           </ListItem>
-          <ListItem button onClick={() => console.log('Locations')}>
+          <ListItem button onClick={ () => console.log('Locations') }>
             Locations
           </ListItem>
         </List>
       </Drawer>
     </div>
-  )
-}
+  );
+};
 
 export default SideDrawer;

@@ -5,7 +5,8 @@ import Featured from './components/Featured/Featured';
 import VenueInfos from './components/VenueInfos/VenueInfos';
 import Highlights from './components/Highlights/Highlights';
 import Pricing from './components/Pricing/Pricing';
-import Location from './components/location/location';
+import Location from './components/Location/Location';
+import Footer from './components/Footer/Footer';
 
 import './resources/reset.scss';
 import './resources/styles.scss';
@@ -20,6 +21,7 @@ class App extends Component {
         <Highlights />
         <Pricing />
         <Location />
+        <Footer />
       </div>
     );
   }
